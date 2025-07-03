@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_1",
+        "elementLabel": "Container 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "column_layout_1",
+                    "elementLabel": "Column layout 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "d356d14b6e293a3020a244b63d278d8f",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "__cmcnaaaakjbaabbyaccvhhwfbbffkziihh__column_1",
+                                "elementLabel": "__cmcnaaaakjbaabbyaccvhhwfbbffkziihh__Column 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "b324da974cef96f2db1d484cfeda4e3e",
+                                                "type": "MACROPONENT_VIEWPORT"
+                                            },
+                                            "elementId": "tabs_1",
+                                            "elementLabel": "Tabs 1",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "extensionPoints": [
+                                                
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "items": [
+                                                {
+                                                    "icon": "abc-outline",
+                                                    "id": "cmcn00pfb01yr2v7wuhmhqqfj",
+                                                    "label": {
+                                                        "type": "TRANSLATION_LITERAL",
+                                                        "value": {
+                                                            "code": null,
+                                                            "comment": "",
+                                                            "message": "Test Demo 1"
+                                                        }
+                                                    },
+                                                    "order": 100,
+                                                    "type": "local"
+                                                }
+                                            ],
+                                            "overrides": {
+                                                "composition": [
+                                                    {
+                                                        "definition": {
+                                                            "id": "d356d14b6e293a3020a244b63d278d8f",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "cmcnaaaapfcaabbysccvhhwggwlciigxw",
+                                                        "elementLabel": "Test Demo 1",
+                                                        "eventMappings": [
+                                                            
+                                                        ],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "name": "Untitled Tab",
+                                                        "overrides": {
+                                                            "composition": [
+                                                                {
+                                                                    "definition": {
+                                                                        "id": "1de221250a27afba43b9b3b04594857f",
+                                                                        "type": "MACROPONENT"
+                                                                    },
+                                                                    "elementId": "calendar_1",
+                                                                    "elementLabel": "Calendar 1",
+                                                                    "eventMappings": [
+                                                                        
+                                                                    ],
+                                                                    "isHidden": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": false
+                                                                    },
+                                                                    "preset": null,
+                                                                    "propertyValues": {
+                                                                        "availableTimezones": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                {
+                                                                                    "label": "GMT",
+                                                                                    "name": "GMT"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Pacific/Wallis",
+                                                                                    "name": "Pacific/Wallis"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Pacific/Chatham",
+                                                                                    "name": "Pacific/Chatham"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Canada/Atlantic",
+                                                                                    "name": "Canada/Atlantic"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Asia/Kolkata",
+                                                                                    "name": "Asia/Kolkata"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Europe/London",
+                                                                                    "name": "Europe/London"
+                                                                                },
+                                                                                {
+                                                                                    "label": "US/Pacific",
+                                                                                    "name": "US/Pacific"
+                                                                                },
+                                                                                {
+                                                                                    "label": "America/Los_Angeles",
+                                                                                    "name": "America/Los_Angeles"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Kongkong",
+                                                                                    "name": "Asia/Hong_kong"
+                                                                                },
+                                                                                {
+                                                                                    "label": "Japan",
+                                                                                    "name": "Japan"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "availableViews": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "availableViews"
+                                                                                ]
+                                                                            },
+                                                                            "type": "STATE_BINDING"
+                                                                        },
+                                                                        "configAria": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {}
+                                                                        },
+                                                                        "contextDate": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "startDate"
+                                                                                ]
+                                                                            },
+                                                                            "type": "STATE_BINDING"
+                                                                        },
+                                                                        "contextualPanelItems": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                {
+                                                                                    "icon": "calendar-clock-outline",
+                                                                                    "id": "agenda-view",
+                                                                                    "label": "Agenda view",
+                                                                                    "open": false
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "currentView": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "WEEK"
+                                                                        },
+                                                                        "customizableLabels": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "agendaEmptyState": {
+                                                                                    "subText": "",
+                                                                                    "text": "No Events Scheduled"
+                                                                                },
+                                                                                "newButton": {
+                                                                                    "text": "New"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "dateFormat": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "YYYY-MM-DD"
+                                                                        },
+                                                                        "datePickerTemplates": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "work_week": "startMoment ? startMoment.format('ddd, MMM D') + '-' + endMoment.format('ddd, MMM D') : ''"
+                                                                            }
+                                                                        },
+                                                                        "enableNewButton": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": true
+                                                                        },
+                                                                        "enableNewCalendarClick": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": true
+                                                                        },
+                                                                        "eventHoverPopover": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "containerStyle": {
+                                                                                    "padding": "16px"
+                                                                                },
+                                                                                "hoverType": "tooltip",
+                                                                                "manageClosed": false,
+                                                                                "refitOnMouseReenter": false,
+                                                                                "template": {
+                                                                                    "type": "component",
+                                                                                    "value": ""
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "events": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "event_data"
+                                                                                ]
+                                                                            },
+                                                                            "type": "STATE_BINDING"
+                                                                        },
+                                                                        "externalEvent": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "firstDayOfWeek": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": 1
+                                                                        },
+                                                                        "focusedEventId": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "hideKeyboardShortcuts": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "hotkeys": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                {
+                                                                                    "eventName": "markspan",
+                                                                                    "info": {
+                                                                                        "next": {
+                                                                                            "description": "Select next mark span event",
+                                                                                            "keyName": "M"
+                                                                                        },
+                                                                                        "previous": {
+                                                                                            "description": "Select previous mark span event",
+                                                                                            "keyName": "Shift + M"
+                                                                                        }
+                                                                                    },
+                                                                                    "keyCode": 77,
+                                                                                    "name": "M",
+                                                                                    "selector": ".mark-span",
+                                                                                    "view": "COLUMN"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "locale": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "default"
+                                                                        },
+                                                                        "manageContextualPanel": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": true
+                                                                        },
+                                                                        "markSpans": {
+                                                                            "binding": {
+                                                                                "address": [
+                                                                                    "holiday_event"
+                                                                                ]
+                                                                            },
+                                                                            "type": "STATE_BINDING"
+                                                                        },
+                                                                        "popoverContentState": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "value": "empty"
+                                                                            }
+                                                                        },
+                                                                        "popoverEnabled": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "sections": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "children": [
+                                                                                                
+                                                                                            ],
+                                                                                            "id": "empty_teams",
+                                                                                            "order": -100,
+                                                                                            "sortBy": [
+                                                                                                "startMS",
+                                                                                                "title"
+                                                                                            ],
+                                                                                            "title": "Hello empty team(s)"
+                                                                                        },
+                                                                                        {
+                                                                                            "contextMenuOptions": [
+                                                                                                {
+                                                                                                    "id": "r1_li1",
+                                                                                                    "label": "Row Specific item 1"
+                                                                                                },
+                                                                                                {
+                                                                                                    "disabled": true,
+                                                                                                    "id": "r2_li2",
+                                                                                                    "label": "Row Specific item 2"
+                                                                                                },
+                                                                                                {
+                                                                                                    "id": "r2_li3",
+                                                                                                    "label": "Row Specific item 3"
+                                                                                                }
+                                                                                            ],
+                                                                                            "id": "Software",
+                                                                                            "markspans": [
+                                                                                                {
+                                                                                                    "color": "#94baf7",
+                                                                                                    "content": "",
+                                                                                                    "from": 9,
+                                                                                                    "spans": 4
+                                                                                                },
+                                                                                                {
+                                                                                                    "color": "#e6f7c7",
+                                                                                                    "content": "",
+                                                                                                    "from": 13,
+                                                                                                    "spans": 1
+                                                                                                },
+                                                                                                {
+                                                                                                    "color": "#ecdf93",
+                                                                                                    "content": "",
+                                                                                                    "from": 14,
+                                                                                                    "spans": 4
+                                                                                                }
+                                                                                            ],
+                                                                                            "order": 11000,
+                                                                                            "sortBy": [
+                                                                                                "startMS",
+                                                                                                "title"
+                                                                                            ],
+                                                                                            "title": "Appointment Booking"
+                                                                                        },
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "id": "HardDisk",
+                                                                                                    "markspans": [
+                                                                                                        {
+                                                                                                            "color": "#ffbdc5",
+                                                                                                            "from": 2,
+                                                                                                            "spans": 8
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "color": "#e6f7c7",
+                                                                                                            "from": 8,
+                                                                                                            "spans": 2
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "order": 10000,
+                                                                                                    "sortBy": [
+                                                                                                        "startMS",
+                                                                                                        "title"
+                                                                                                    ],
+                                                                                                    "title": "Editable Calendar"
+                                                                                                },
+                                                                                                {
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "id": "Network",
+                                                                                                            "markspans": [
+                                                                                                                {
+                                                                                                                    "color": "#ccc",
+                                                                                                                    "from": 8,
+                                                                                                                    "spans": 8,
+                                                                                                                    "style": {
+                                                                                                                        "backgroundImage": "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "color": "#ffbdc5",
+                                                                                                                    "from": 8,
+                                                                                                                    "spans": 2
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "order": 0,
+                                                                                                            "sortBy": [
+                                                                                                                "startMS",
+                                                                                                                "title"
+                                                                                                            ],
+                                                                                                            "title": "Reschedule Events"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "contextMenuOptions": [
+                                                                                                                {
+                                                                                                                    "id": "r1_li1",
+                                                                                                                    "label": "Row Specific item 1"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "disabled": true,
+                                                                                                                    "id": "r2_li2",
+                                                                                                                    "label": "Row Specific item 2"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id": "r2_li3",
+                                                                                                                    "label": "Row Specific item 3"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "id": "Network1",
+                                                                                                            "order": 10000,
+                                                                                                            "sortBy": [
+                                                                                                                "startMS",
+                                                                                                                "title"
+                                                                                                            ],
+                                                                                                            "title": "Extend/Shrink Events"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "id": "NetworkGroup",
+                                                                                                    "isCollapsed": false,
+                                                                                                    "order": 20000,
+                                                                                                    "showHeader": true,
+                                                                                                    "title": "Drag and Drop support"
+                                                                                                }
+                                                                                            ],
+                                                                                            "id": "HardwareSection",
+                                                                                            "isCollapsed": false,
+                                                                                            "order": 10000,
+                                                                                            "showHeader": true,
+                                                                                            "title": "Calendar view",
+                                                                                            "trackConfig1": {
+                                                                                                "normal": {
+                                                                                                    "eventHeight": 24,
+                                                                                                    "paddingBottom": 4,
+                                                                                                    "paddingTop": 4,
+                                                                                                    "style1": {
+                                                                                                        "boxShadow": "0px 1px 3px rgb(0 0 0 / 5%) inset, 0px 0px 8px #673ab7"
+                                                                                                    }
+                                                                                                },
+                                                                                                "priority": {
+                                                                                                    "eventHeight": 50,
+                                                                                                    "paddingBottom": 8,
+                                                                                                    "paddingTop": 8,
+                                                                                                    "style": {
+                                                                                                        "boxShadow": "0px 1px 3px rgb(0 0 0 / 5%) inset, 0px 0px 8px #673ab7"
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "ServiceDesk",
+                                                                                            "order": 20000,
+                                                                                            "sortBy": [
+                                                                                                "startMS",
+                                                                                                "title"
+                                                                                            ],
+                                                                                            "title": "Timeline View"
+                                                                                        }
+                                                                                    ],
+                                                                                    "id": "ITSM_IDC",
+                                                                                    "isCollapsed": false,
+                                                                                    "order": 0,
+                                                                                    "showHeader": true,
+                                                                                    "sortBy": [
+                                                                                        "startMS",
+                                                                                        "title"
+                                                                                    ],
+                                                                                    "textColor": "",
+                                                                                    "title": "Calendar Component (with mouse hover tooltip)"
+                                                                                },
+                                                                                {
+                                                                                    "children": [
+                                                                                        {
+                                                                                            "id": "MIM",
+                                                                                            "order": 0,
+                                                                                            "sortBy": [
+                                                                                                "startMS",
+                                                                                                "title"
+                                                                                            ],
+                                                                                            "title": "MIM"
+                                                                                        },
+                                                                                        {
+                                                                                            "children": [
+                                                                                                {
+                                                                                                    "id": "CommunicationTask",
+                                                                                                    "order": 0,
+                                                                                                    "sortBy": [
+                                                                                                        "startMS",
+                                                                                                        "title"
+                                                                                                    ],
+                                                                                                    "title": "View My Shifts"
+                                                                                                },
+                                                                                                {
+                                                                                                    "children": [
+                                                                                                        {
+                                                                                                            "id": "SMSTask",
+                                                                                                            "order": 0,
+                                                                                                            "sortBy": [
+                                                                                                                "startMS",
+                                                                                                                "title"
+                                                                                                            ],
+                                                                                                            "title": "View overlapping rotas"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "children": [
+                                                                                                                {
+                                                                                                                    "id": "MailTask",
+                                                                                                                    "order": 0,
+                                                                                                                    "sortBy": [
+                                                                                                                        "startMS",
+                                                                                                                        "title"
+                                                                                                                    ],
+                                                                                                                    "title": "Gaps"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "id": "CommunicationPlan",
+                                                                                                            "isCollapsed": false,
+                                                                                                            "order": 10000,
+                                                                                                            "showHeader": true,
+                                                                                                            "title": "8-5 Shifts"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "id": "ConferenceTask",
+                                                                                                    "isCollapsed": false,
+                                                                                                    "order": 10000,
+                                                                                                    "showHeader": true,
+                                                                                                    "title": "Create Rotas"
+                                                                                                }
+                                                                                            ],
+                                                                                            "id": "TechnicalPlan",
+                                                                                            "isCollapsed": false,
+                                                                                            "order": 10000,
+                                                                                            "showHeader": true,
+                                                                                            "sortBy": [
+                                                                                                "startMS",
+                                                                                                "title"
+                                                                                            ],
+                                                                                            "title": "On Call Application"
+                                                                                        }
+                                                                                    ],
+                                                                                    "id": "ITBM_IDC",
+                                                                                    "isCollapsed": false,
+                                                                                    "order": 10000,
+                                                                                    "showHeader": true,
+                                                                                    "textColor": "",
+                                                                                    "title": "Mobile Applications"
+                                                                                },
+                                                                                {
+                                                                                    "id": "Hardware",
+                                                                                    "order": 0,
+                                                                                    "parent": "HardwareSection",
+                                                                                    "sortBy": [
+                                                                                        "startMS",
+                                                                                        "title"
+                                                                                    ],
+                                                                                    "title": "Readonly Calendar",
+                                                                                    "titleInlineStyle": {}
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "security": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "allowCreate": true,
+                                                                                "allowMove": true,
+                                                                                "allowResize": true,
+                                                                                "readOnly": false
+                                                                            }
+                                                                        },
+                                                                        "selectedEvents": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                
+                                                                            ]
+                                                                        },
+                                                                        "splitMultiDayEvent": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "timeFormat": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "HH:mm"
+                                                                        },
+                                                                        "timelineVerticalLines": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": [
+                                                                                {
+                                                                                    "inlineStyle": {
+                                                                                        "backgroundColor": "#fff",
+                                                                                        "backgroundImage": "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)",
+                                                                                        "backgroundPosition": "0% 0%",
+                                                                                        "backgroundRepeat": "repeat-y",
+                                                                                        "backgroundSize": "100% 88px",
+                                                                                        "height": "100%",
+                                                                                        "margin": "0 auto",
+                                                                                        "width": "2px"
+                                                                                    },
+                                                                                    "meta": {},
+                                                                                    "utcMS": 1596006089149
+                                                                                },
+                                                                                {
+                                                                                    "inlineStyle": {
+                                                                                        "height": "100%",
+                                                                                        "margin": "0 auto",
+                                                                                        "width": "2px"
+                                                                                    },
+                                                                                    "meta": {
+                                                                                        "id": 1
+                                                                                    },
+                                                                                    "utcMS": 1595991689149
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "timezone": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "Japan"
+                                                                        },
+                                                                        "viewSettings": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": {
+                                                                                "DAY": {
+                                                                                    "label": "Day",
+                                                                                    "snapGranularity": 15,
+                                                                                    "splitRow": 2,
+                                                                                    "type": "Calendar",
+                                                                                    "view": "DAY",
+                                                                                    "viewProvider": "DAY"
+                                                                                },
+                                                                                "TIMELINE_DAY": {
+                                                                                    "animation": false,
+                                                                                    "enableColumnNavigation": false,
+                                                                                    "eventHeight": 20,
+                                                                                    "eventMinWidthMS": 300000,
+                                                                                    "groupBy": "group",
+                                                                                    "label": "Day",
+                                                                                    "noScrolling": false,
+                                                                                    "scrollDebounceTime": 100,
+                                                                                    "snapGranularity": 15,
+                                                                                    "splitRow": 2,
+                                                                                    "timeRowSpan": 60,
+                                                                                    "titleWidth": 240,
+                                                                                    "type": "Timeline",
+                                                                                    "view": "TIMELINE_DAY",
+                                                                                    "viewName": "TIMELINE_DAY",
+                                                                                    "viewProvider": "TIMELINE_DAY",
+                                                                                    "xSize": 24,
+                                                                                    "xStart": 0,
+                                                                                    "xStep": 60,
+                                                                                    "xUnitName": "minutes"
+                                                                                },
+                                                                                "TIMELINE_MONTH": {
+                                                                                    "animation": false,
+                                                                                    "columnTimeframe": 1,
+                                                                                    "columnUnit": "weeks",
+                                                                                    "columnsCount": 4,
+                                                                                    "enableColumnNavigation": true,
+                                                                                    "eventHeight": 20,
+                                                                                    "eventMinWidthMS": -1,
+                                                                                    "groupBy": "group",
+                                                                                    "hideSidebarOnLoad": true,
+                                                                                    "label": "4 Weeks",
+                                                                                    "noScrolling": false,
+                                                                                    "scrollDebounceTime": 100,
+                                                                                    "titleWidth": 240,
+                                                                                    "type": "Timeline",
+                                                                                    "view": "TIMELINE_MONTH",
+                                                                                    "viewLabel": "4 Weeks",
+                                                                                    "viewName": "TIMELINE_CONFIGURABLE_COLUMN",
+                                                                                    "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN",
+                                                                                    "xSize": 4,
+                                                                                    "xStart": 0,
+                                                                                    "xStep": 1,
+                                                                                    "xUnitName": "weeks"
+                                                                                },
+                                                                                "TIMELINE_WEEK": {
+                                                                                    "animation": false,
+                                                                                    "enableColumnNavigation": false,
+                                                                                    "eventHeight": 20,
+                                                                                    "eventMinWidthMS": 3600000,
+                                                                                    "groupBy": "group",
+                                                                                    "label": "Week",
+                                                                                    "noScrolling": false,
+                                                                                    "scrollDebounceTime": 100,
+                                                                                    "snapGranularity": 480,
+                                                                                    "splitRow": 3,
+                                                                                    "titleWidth": 240,
+                                                                                    "type": "Timeline",
+                                                                                    "view": "TIMELINE_WEEK",
+                                                                                    "viewName": "TIMELINE_WEEK",
+                                                                                    "viewProvider": "TIMELINE_WEEK",
+                                                                                    "xSize": 7,
+                                                                                    "xStart": 0,
+                                                                                    "xStep": 1,
+                                                                                    "xUnitName": "days"
+                                                                                },
+                                                                                "WEEK": {
+                                                                                    "label": "Week",
+                                                                                    "snapGranularity": 15,
+                                                                                    "splitRow": 2,
+                                                                                    "type": "Calendar",
+                                                                                    "view": "WEEK",
+                                                                                    "viewProvider": "WEEK"
+                                                                                },
+                                                                                "work_week": {
+                                                                                    "label": "Work Week",
+                                                                                    "numberOfDays": 5,
+                                                                                    "snapGranularity": 15,
+                                                                                    "splitRow": 2,
+                                                                                    "type": "Calendar",
+                                                                                    "view": "work_week",
+                                                                                    "viewProvider": "COLUMN"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "slot": null,
+                                                                    "styles": null
+                                                                }
+                                                            ],
+                                                            "layout": {
+                                                                "default": {
+                                                                    "children": null,
+                                                                    "items": [
+                                                                        {
+                                                                            "element_id": "calendar_1",
+                                                                            "styles": {}
+                                                                        }
+                                                                    ],
+                                                                    "root": null,
+                                                                    "rules": null,
+                                                                    "styles": {
+                                                                        "min-height": "300px",
+                                                                        "width": "100%"
+                                                                    },
+                                                                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                                                    "type": "flex"
+                                                                },
+                                                                "version": "3.0.0"
+                                                            }
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "ariaRegionHeadingLevel": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "1"
+                                                            },
+                                                            "ariaRegionName": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": ""
+                                                                }
+                                                            },
+                                                            "ariaRole": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": ""
+                                                            },
+                                                            "hideEmptyStateUi": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
+                                                            "includeAriaHeading": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "slotWrapperBehavior": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "fullheight"
+                                                            },
+                                                            "type": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "section"
+                                                            }
+                                                        },
+                                                        "slot": "cmcn00pfb01yr2v7wuhmhqqfj",
+                                                        "styles": null
+                                                    }
+                                                ],
+                                                "layout": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "activeRoute": {
+                                                    "icon": "",
+                                                    "id": "cmcn00pfb01yr2v7wuhmhqqfj",
+                                                    "label": "Untitled Tab",
+                                                    "order": 100,
+                                                    "type": "local"
+                                                },
+                                                "ariaLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ""
+                                                },
+                                                "defaultRoute": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "dynamicTabData": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "enableCollapsing": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "fixedWidth": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "hideLabel": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "initiallyCollapsed": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                },
+                                                "items": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": [
+                                                        
+                                                    ]
+                                                },
+                                                "maxWidth": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": 240
+                                                },
+                                                "position": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "top"
+                                                },
+                                                "selectedTab": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "selectedTabIndex": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "showInlinePadding": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "spaceBetweenItems": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "none"
+                                                },
+                                                "tabStyles": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": ".tabset-tabs{\n\n}\n.tabset-container{\n\n}"
+                                                },
+                                                "viewportConfiguration": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": {
+                                                        "enableDataDrivenTabs": true,
+                                                        "validation": {
+                                                            "icon": {
+                                                                "required": false
+                                                            },
+                                                            "name": {
+                                                                "required": true
+                                                            },
+                                                            "order": {
+                                                                "required": false
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "slot": null,
+                                            "styles": null
+                                        }
+                                    ],
+                                    "layout": {
+                                        "default": {
+                                            "children": null,
+                                            "items": [
+                                                {
+                                                    "element_id": "tabs_1",
+                                                    "styles": {}
+                                                }
+                                            ],
+                                            "root": null,
+                                            "rules": {
+                                                "flex-direction": "row"
+                                            },
+                                            "styles": {
+                                                "align-items": "flex-start",
+                                                "box-sizing": "border-box",
+                                                "flex-direction": "column",
+                                                "height": "100%",
+                                                "justify-content": "flex-start",
+                                                "overflow": "auto"
+                                            },
+                                            "type": "flex"
+                                        },
+                                        "version": "3.0.0"
+                                    }
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "contents"
+                                    }
+                                },
+                                "scratchPad": {
+                                    "uib": {
+                                        "layout": {
+                                            "column": {
+                                                "styleConfig": {
+                                                    "external": {
+                                                        "display": "contents",
+                                                        "width": "100%"
+                                                    },
+                                                    "internal": {
+                                                        "align-items": "flex-start",
+                                                        "box-sizing": "border-box",
+                                                        "flex-direction": "column",
+                                                        "height": "100%",
+                                                        "justify-content": "flex-start",
+                                                        "overflow": "auto"
+                                                    }
+                                                }
+                                            },
+                                            "type": "column"
+                                        },
+                                        "version": "1.0.0"
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "isInline": null,
+                                "items": [
+                                    {
+                                        "element_id": "__cmcnaaaakjbaabbyaccvhhwfbbffkziihh__column_1",
+                                        "styles": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "100fr",
+                                    "grid-template-rows": "1fr",
+                                    "width": "100%"
+                                },
+                                "type": "grid"
+                            },
+                            "disableAutoReflow": true,
+                            "queries": [
+                                {
+                                    "layout": {
+                                        "children": null,
+                                        "isInline": null,
+                                        "items": [
+                                            
+                                        ],
+                                        "root": null,
+                                        "rules": null,
+                                        "styles": {
+                                            "box-sizing": "border-box",
+                                            "grid-template-columns": "1fr",
+                                            "grid-template-rows": "1fr",
+                                            "height": "fit-content",
+                                            "max-height": "max-content",
+                                            "min-height": "min-content",
+                                            "width": "100%"
+                                        },
+                                        "type": "grid"
+                                    },
+                                    "query": {
+                                        "max-width": 640
+                                    }
+                                }
+                            ],
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "main"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "columnSection": {
+                                    "breakpoints": [
+                                        {
+                                            "behavior": "stack",
+                                            "max-width": 640,
+                                            "styles": {
+                                                "box-sizing": "border-box",
+                                                "grid-template-columns": "1fr",
+                                                "grid-template-rows": "1fr",
+                                                "height": "fit-content",
+                                                "max-height": "max-content",
+                                                "min-height": "min-content",
+                                                "width": "100%"
+                                            }
+                                        }
+                                    ],
+                                    "children": [
+                                        {
+                                            "columnNumber": 1,
+                                            "unit": "%",
+                                            "width": 100
+                                        }
+                                    ],
+                                    "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "box-sizing": "border-box",
+                                            "grid-template-rows": "1fr",
+                                            "width": "100%"
+                                        }
+                                    }
+                                },
+                                "type": "columnSection"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "column_layout_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "flex-direction": "column",
+                        "width": "100%"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "main"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>1b5e29e994811110fa9bd865bcd1535c</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "custom_3"
+            },
+            {
+                "element_id": "column_layout_1"
+            },
+            {
+                "element_id": "container_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "flex"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [
+                    
+                ],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>カレンダー</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "YtaafmeehhyICUdSjjriiMfeedeepNiM",
+        "inherited": false,
+        "label": "テーブル",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "eeddHggCteehhbbODEiccjjbYBnquffaiggS",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "bbJUvffPeDDaaWyjjeeeeGjHbYbbTbz",
+        "inherited": false,
+        "label": "クエリ",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "dzhhQffvZTAEBvjjjaaJjjOMRNaaddo",
+        "inherited": false,
+        "label": "ビュー",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "eeAvrbvUtDElrjjceeKWggcoqvrX",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "GOrOpwCwCaaGIeeddKsBcgVbKKtB",
+        "inherited": false,
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "QYaeeehheehhczAEfffeeddDUOWbbvJgLRr",
+        "inherited": false,
+        "label": "フィールド",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "TITbbOPhhxCkqijjbbsHbbddzffuaTu",
+        "inherited": false,
+        "label": "画面",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "SLVOZfHkBkzeeeddNaaHFiiiipaOs",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "hCWmafMYBUzhhjjaaUFQEeehhBCDzO",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "4 Weeks",
+  "comment" : ""
+}, {
+  "message" : "Agenda view",
+  "comment" : ""
+}, {
+  "message" : "America/Los_Angeles",
+  "comment" : ""
+}, {
+  "message" : "Asia/Kolkata",
+  "comment" : ""
+}, {
+  "message" : "Canada/Atlantic",
+  "comment" : ""
+}, {
+  "message" : "Day",
+  "comment" : ""
+}, {
+  "message" : "Europe/London",
+  "comment" : ""
+}, {
+  "message" : "GMT",
+  "comment" : ""
+}, {
+  "message" : "Japan",
+  "comment" : ""
+}, {
+  "message" : "Kongkong",
+  "comment" : ""
+}, {
+  "message" : "Pacific/Chatham",
+  "comment" : ""
+}, {
+  "message" : "Pacific/Wallis",
+  "comment" : ""
+}, {
+  "message" : "Row Specific item 1",
+  "comment" : ""
+}, {
+  "message" : "Row Specific item 2",
+  "comment" : ""
+}, {
+  "message" : "Row Specific item 3",
+  "comment" : ""
+}, {
+  "message" : "Test Demo 1",
+  "comment" : ""
+}, {
+  "message" : "US/Pacific",
+  "comment" : ""
+}, {
+  "message" : "Untitled Tab",
+  "comment" : ""
+}, {
+  "message" : "Week",
+  "comment" : ""
+}, {
+  "message" : "Work Week",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    {
+        "id": "cRxy47PHJA08443AMCQS21VJKv",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "-1"
+        },
+        "name": "hokenshi_sysid",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "NpOcZ47SJBEKf9vgDDAdxn8L43",
+        "initialValue": null,
+        "name": "newClientStateTime",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "DzIhigDuBUpx43IoD0QF13OFd",
+        "initialValue": null,
+        "name": "newClientEndTime",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "id": "Kvcp4347GLAUUZ9430CvgZTfltC",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": [
+                {
+                    "$$mid": 0,
+                    "bgColor": "#9c88ff",
+                    "block": false,
+                    "endDate": "2029-01-01",
+                    "occurrenceDays": [
+                        0,
+                        6
+                    ],
+                    "startDate": "2019-01-01",
+                    "textColor": "blue",
+                    "zones": [
+                        {
+                            "endTime": "23:59:59",
+                            "startTime": "00:00:00"
+                        }
+                    ]
+                },
+                {
+                    "$$mid": 1,
+                    "bgColor": "#00a8ff",
+                    "block": true,
+                    "endDate": "2025-07-03",
+                    "occurrenceDays": [
+                        2
+                    ],
+                    "startDate": "2025-07-03",
+                    "textColor": "#4cd137",
+                    "title": "Ngày của bố  mày",
+                    "zones": [
+                        {
+                            "endTime": "23:59:59",
+                            "startTime": "00:00:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        "name": "holiday_event",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "id": "7UVUof7FBkhI9goCaCxjoc9t",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "client_event_id",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "id": "b6NWa47ZADkoC93AHI1obJdbR",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": [
+                {
+                    "bgColor": "nds-orange",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                    "end": "2025-07-04 18:00:00",
+                    "endMS": 1696442400000,
+                    "group": "Hardware",
+                    "id": "0",
+                    "order": 3000,
+                    "start": "2025-07-04 04:00:01",
+                    "startMS": 1696392001000,
+                    "title": "Demo day"
+                }
+            ]
+        },
+        "name": "event_data",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "id": "fpUg2P1rA0ey9gIDSMBJxKAT",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "{{$now}}"
+        },
+        "name": "startDate",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "nxW7ivRYAkS994MJoTuFdefS",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "endDate",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "Bhr35v43RDk43d9WEO3LowGBkj",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "startTime",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "8iv47FvqDBkfJ9XgLojGtCzlP",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "endTime",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "hGlh4vHMBEkK9VUIqLxbLFj9",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": "x_bllt_phn_app_t_yotei_joho"
+        },
+        "name": "table",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "fieldType": "json",
+        "id": "i8gU2PowDUqV93UAM4aBVuCI",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": [
+                {
+                    "label": "Day",
+                    "type": "Calendar",
+                    "view": "DAY",
+                    "viewProvider": "DAY"
+                },
+                {
+                    "label": "Week",
+                    "type": "Calendar",
+                    "view": "WEEK",
+                    "viewProvider": "WEEK"
+                },
+                {
+                    "label": "Month",
+                    "type": "Calendar",
+                    "view": "MONTH",
+                    "viewProvider": "MONTH"
+                },
+                {
+                    "label": "Day",
+                    "type": "Timeline",
+                    "view": "TIMELINE_DAY",
+                    "viewProvider": "TIMELINE_DAY"
+                },
+                {
+                    "label": "Week",
+                    "type": "Timeline",
+                    "view": "TIMELINE_WEEK",
+                    "viewProvider": "TIMELINE_WEEK"
+                },
+                {
+                    "label": "4 Weeks",
+                    "type": "Timeline",
+                    "view": "TIMELINE_MONTH",
+                    "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN"
+                }
+            ]
+        },
+        "name": "availableViews",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "json",
+        "id": "Z7DqqfGPDUK4343MMFFVMtUdeL",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": {
+                "DAY": {
+                    "label": "Day",
+                    "snapGranularity": 15,
+                    "splitRow": 2,
+                    "type": "Calendar",
+                    "view": "DAY",
+                    "viewProvider": "DAY"
+                },
+                "TIMELINE_DAY": {
+                    "animation": false,
+                    "enableColumnNavigation": false,
+                    "eventHeight": 20,
+                    "eventMinWidthMS": 300000,
+                    "groupBy": "group",
+                    "label": "Day",
+                    "noScrolling": false,
+                    "scrollDebounceTime": 100,
+                    "snapGranularity": 15,
+                    "splitRow": 2,
+                    "timeRowSpan": 60,
+                    "titleWidth": 240,
+                    "type": "Timeline",
+                    "view": "TIMELINE_DAY",
+                    "viewName": "TIMELINE_DAY",
+                    "viewProvider": "TIMELINE_DAY",
+                    "xSize": 24,
+                    "xStart": 8,
+                    "xStep": 60,
+                    "xUnitName": "minutes"
+                },
+                "TIMELINE_MONTH": {
+                    "animation": false,
+                    "columnTimeframe": 1,
+                    "columnUnit": "weeks",
+                    "columnsCount": 4,
+                    "enableColumnNavigation": true,
+                    "eventHeight": 20,
+                    "eventMinWidthMS": -1,
+                    "groupBy": "group",
+                    "hideSidebarOnLoad": true,
+                    "label": "4 Weeks",
+                    "noScrolling": false,
+                    "scrollDebounceTime": 100,
+                    "titleWidth": 240,
+                    "type": "Timeline",
+                    "view": "TIMELINE_MONTH",
+                    "viewLabel": "4 Weeks",
+                    "viewName": "TIMELINE_CONFIGURABLE_COLUMN",
+                    "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN",
+                    "xSize": 4,
+                    "xStart": 8,
+                    "xStep": 1,
+                    "xUnitName": "weeks"
+                },
+                "TIMELINE_WEEK": {
+                    "animation": false,
+                    "enableColumnNavigation": false,
+                    "eventHeight": 20,
+                    "eventMinWidthMS": 3600000,
+                    "groupBy": "group",
+                    "label": "Week",
+                    "noScrolling": false,
+                    "scrollDebounceTime": 100,
+                    "snapGranularity": 480,
+                    "splitRow": 3,
+                    "titleWidth": 240,
+                    "type": "Timeline",
+                    "view": "TIMELINE_WEEK",
+                    "viewName": "TIMELINE_WEEK",
+                    "viewProvider": "TIMELINE_WEEK",
+                    "xSize": 7,
+                    "xStart": 8,
+                    "xStep": 1,
+                    "xUnitName": "days"
+                },
+                "WEEK": {
+                    "label": "Week",
+                    "snapGranularity": 15,
+                    "splitRow": 2,
+                    "type": "Calendar",
+                    "view": "WEEK",
+                    "viewProvider": "WEEK"
+                },
+                "work_week": {
+                    "label": "Work Week",
+                    "numberOfDays": 5,
+                    "snapGranularity": 15,
+                    "splitRow": 2,
+                    "type": "Calendar",
+                    "view": "work_week",
+                    "viewProvider": "COLUMN",
+                    "xStart": 8
+                }
+            }
+        },
+        "name": "viewSetting",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "fieldType": "json",
+        "id": "b08aJgA4DEdJ43GEEniF8Mbbr",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": [
+                {
+                    "children": [
+                        {
+                            "id": "",
+                            "order": 0,
+                            "sortBy": [
+                                "startMS",
+                                "title"
+                            ],
+                            "title": ""
+                        }
+                    ],
+                    "id": "",
+                    "isCollapsed": false,
+                    "order": 1,
+                    "showHeader": true,
+                    "title": ""
+                }
+            ]
+        },
+        "name": "timeline_sections",
+        "shape": "",
+        "valueType": "json"
+    },
+    {
+        "id": "ggoLzP8XDEKl90cJxS15p9QV",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "user_name",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "gxLaif6XCE8t9dIFdNkSd4wA",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "flag",
+        "shape": "",
+        "valueType": "string"
+    },
+    {
+        "id": "G74BzQDjBk3U90MB9OG4JbKI",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "name": "login_user_name",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-03 03:34:42</sys_created_on>
+        <sys_id>b28e1f3c8326a610da21b955eeaad334</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>カレンダー</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b28e1f3c8326a610da21b955eeaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-03 09:47:00</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=b28e1f3c8326a610da21b955eeaad334"/>
+</record_update>
