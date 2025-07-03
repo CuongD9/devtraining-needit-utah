@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Yotoko">e62bc6e49326e210990b7fddfaba108d</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Yotoko</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>yotoko</route_type>
+        <screen_type display_value="Yotoko">f36b86289326e210990b7fddfaba1022</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-02 02:53:07</sys_created_on>
+        <sys_id>776b86289326e210990b7fddfaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yotoko</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_776b86289326e210990b7fddfaba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-02 02:53:07</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=776b86289326e210990b7fddfaba1025"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>fd733e54eb24aa94e483f459bad0cdd8</instance_id>
+        <instance_name>dev308207</instance_name>
+        <name>sys_ux_app_route_776b86289326e210990b7fddfaba1025</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Yotoko">e62bc6e49326e210990b7fddfaba108d</app_config><description/><extension_point/><fields/><icon/><name>Yotoko</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent><parent_macroponent_composition_element_id/><route_type>yotoko</route_type><screen_type display_value="Yotoko">f36b86289326e210990b7fddfaba1022</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-02 02:53:07</sys_created_on><sys_id>776b86289326e210990b7fddfaba1025</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Yotoko</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_app_route_776b86289326e210990b7fddfaba1025</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-02 02:53:07</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=776b86289326e210990b7fddfaba1025"/></record_update>]]></payload>
+        <payload_hash>-1421362843</payload_hash>
+        <record_name>Yotoko</record_name>
+        <reverted_from/>
+        <source>7ec19108932a2210990b7fddfaba1095</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-02 02:53:07</sys_created_on>
+        <sys_id>bf6bcae89326e210990b7fddfaba10d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197c90d63850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-02 02:53:07</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>b36bcae89d26e21084e4d0e9d8d9dcd7</update_guid>
+        <update_guid_history>b36bcae89d26e21084e4d0e9d8d9dcd7:-1421362843</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-02 05:37:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>39e4159a60d84fa9aa356c7eb5744e41</sys_id>
+        <sys_metadata>776b86289326e210990b7fddfaba1025</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Yotoko</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_776b86289326e210990b7fddfaba1025</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_776b86289326e210990b7fddfaba1025">bf6bcae89326e210990b7fddfaba10d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-02 05:37:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
