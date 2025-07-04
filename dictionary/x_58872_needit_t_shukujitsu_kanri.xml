@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f6ea8d1836ee610da21b955eeaad300" label="祝日管理" max_length="40" name="x_58872_needit_t_shukujitsu_kanri" type="collection">
+        <element label="名称" max_length="40" name="u_meisho" type="string"/>
+        <element label="日付" max_length="40" name="u_hiduke" type="glide_date"/>
+    </element>
+</database>

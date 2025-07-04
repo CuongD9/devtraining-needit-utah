@@ -167,24 +167,127 @@
                                                                             ]
                                                                         },
                                                                         "availableViews": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "availableViews"
-                                                                                ]
-                                                                            },
-                                                                            "type": "STATE_BINDING"
+                                                                            "container": [
+                                                                                {
+                                                                                    "container": {
+                                                                                        "label": {
+                                                                                            "type": "TRANSLATION_LITERAL",
+                                                                                            "value": {
+                                                                                                "code": null,
+                                                                                                "comment": "",
+                                                                                                "message": "Day"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "Calendar"
+                                                                                        },
+                                                                                        "view": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "DAY"
+                                                                                        },
+                                                                                        "viewProvider": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "DAY"
+                                                                                        }
+                                                                                    },
+                                                                                    "type": "MAP_CONTAINER"
+                                                                                },
+                                                                                {
+                                                                                    "container": {
+                                                                                        "label": {
+                                                                                            "type": "TRANSLATION_LITERAL",
+                                                                                            "value": {
+                                                                                                "code": null,
+                                                                                                "comment": "",
+                                                                                                "message": "Work Week"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "Calendar"
+                                                                                        },
+                                                                                        "view": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "work_week"
+                                                                                        },
+                                                                                        "viewProvider": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "COLUMN"
+                                                                                        }
+                                                                                    },
+                                                                                    "type": "MAP_CONTAINER"
+                                                                                },
+                                                                                {
+                                                                                    "container": {
+                                                                                        "label": {
+                                                                                            "type": "TRANSLATION_LITERAL",
+                                                                                            "value": {
+                                                                                                "code": null,
+                                                                                                "comment": "",
+                                                                                                "message": "Week"
+                                                                                            }
+                                                                                        },
+                                                                                        "type": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "Calendar"
+                                                                                        },
+                                                                                        "view": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "WEEK"
+                                                                                        },
+                                                                                        "viewProvider": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "WEEK"
+                                                                                        }
+                                                                                    },
+                                                                                    "type": "MAP_CONTAINER"
+                                                                                },
+                                                                                {
+                                                                                    "container": {
+                                                                                        "label": {
+                                                                                            "type": "TRANSLATION_LITERAL",
+                                                                                            "value": {
+                                                                                                "code": null,
+                                                                                                "comment": "",
+                                                                                                "message": "Month"
+                                                                                            }
+                                                                                        },
+                                                                                        "showSpans": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": true
+                                                                                        },
+                                                                                        "type": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "Calendar"
+                                                                                        },
+                                                                                        "view": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "MONTH"
+                                                                                        },
+                                                                                        "viewProvider": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": "MONTH"
+                                                                                        }
+                                                                                    },
+                                                                                    "type": "MAP_CONTAINER"
+                                                                                }
+                                                                            ],
+                                                                            "type": "LIST_CONTAINER"
                                                                         },
                                                                         "configAria": {
                                                                             "type": "JSON_LITERAL",
                                                                             "value": {}
                                                                         },
                                                                         "contextDate": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "startDate"
-                                                                                ]
+                                                                            "script": {
+                                                                                "apiVersion": "2.0.0",
+                                                                                "controllerElementId": null,
+                                                                                "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n        const date = new Date();\n        const timestamp = date.getTime();\n        return timestamp;\n}",
+                                                                                "scriptSysId": "5e0318d183eae610da21b955eeaad399",
+                                                                                "target": null
                                                                             },
-                                                                            "type": "STATE_BINDING"
+                                                                            "type": "CLIENT_TRANSFORM_SCRIPT"
                                                                         },
                                                                         "contextualPanelItems": {
                                                                             "type": "JSON_LITERAL",
@@ -220,7 +323,7 @@
                                                                         "datePickerTemplates": {
                                                                             "type": "JSON_LITERAL",
                                                                             "value": {
-                                                                                "work_week": "startMoment ? startMoment.format('ddd, MMM D') + '-' + endMoment.format('ddd, MMM D') : ''"
+                                                                                "work_week": "(startMoment &amp;&amp; endMoment) ? `${startMoment.format('M/D')}-${endMoment.format('M/D')}` : ''"
                                                                             }
                                                                         },
                                                                         "enableNewButton": {
@@ -612,7 +715,7 @@
                                                                         },
                                                                         "splitMultiDayEvent": {
                                                                             "type": "JSON_LITERAL",
-                                                                            "value": false
+                                                                            "value": true
                                                                         },
                                                                         "timeFormat": {
                                                                             "type": "JSON_LITERAL",
@@ -623,7 +726,7 @@
                                                                             "value": [
                                                                                 {
                                                                                     "inlineStyle": {
-                                                                                        "backgroundColor": "#fff",
+                                                                                        "backgroundColor": "#00a8ff",
                                                                                         "backgroundImage": "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)",
                                                                                         "backgroundPosition": "0% 0%",
                                                                                         "backgroundRepeat": "repeat-y",
@@ -632,7 +735,6 @@
                                                                                         "margin": "0 auto",
                                                                                         "width": "2px"
                                                                                     },
-                                                                                    "meta": {},
                                                                                     "utcMS": 1596006089149
                                                                                 },
                                                                                 {
@@ -663,6 +765,14 @@
                                                                                     "view": "DAY",
                                                                                     "viewProvider": "DAY"
                                                                                 },
+                                                                                "MONTH": {
+                                                                                    "label": "Month",
+                                                                                    "showSpans": true,
+                                                                                    "splitRow": 2,
+                                                                                    "type": "Calendar",
+                                                                                    "view": "MONTH",
+                                                                                    "viewProvider": "MONTH"
+                                                                                },
                                                                                 "TIMELINE_DAY": {
                                                                                     "animation": false,
                                                                                     "enableColumnNavigation": false,
@@ -681,7 +791,7 @@
                                                                                     "viewName": "TIMELINE_DAY",
                                                                                     "viewProvider": "TIMELINE_DAY",
                                                                                     "xSize": 24,
-                                                                                    "xStart": 0,
+                                                                                    "xStart": 8,
                                                                                     "xStep": 60,
                                                                                     "xUnitName": "minutes"
                                                                                 },
@@ -705,7 +815,7 @@
                                                                                     "viewName": "TIMELINE_CONFIGURABLE_COLUMN",
                                                                                     "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN",
                                                                                     "xSize": 4,
-                                                                                    "xStart": 0,
+                                                                                    "xStart": 8,
                                                                                     "xStep": 1,
                                                                                     "xUnitName": "weeks"
                                                                                 },
@@ -726,12 +836,16 @@
                                                                                     "viewName": "TIMELINE_WEEK",
                                                                                     "viewProvider": "TIMELINE_WEEK",
                                                                                     "xSize": 7,
-                                                                                    "xStart": 0,
+                                                                                    "xStart": 8,
                                                                                     "xStep": 1,
                                                                                     "xUnitName": "days"
                                                                                 },
                                                                                 "WEEK": {
+                                                                                    "cellHeaderStyle": {
+                                                                                        "backgroundColor": "#ffd6e7"
+                                                                                    },
                                                                                     "label": "Week",
+                                                                                    "showSpans": false,
                                                                                     "snapGranularity": 15,
                                                                                     "splitRow": 2,
                                                                                     "type": "Calendar",
@@ -741,11 +855,13 @@
                                                                                 "work_week": {
                                                                                     "label": "Work Week",
                                                                                     "numberOfDays": 5,
+                                                                                    "showSpans": true,
                                                                                     "snapGranularity": 15,
                                                                                     "splitRow": 2,
                                                                                     "type": "Calendar",
                                                                                     "view": "work_week",
-                                                                                    "viewProvider": "COLUMN"
+                                                                                    "viewProvider": "COLUMN",
+                                                                                    "xStart": 8
                                                                                 }
                                                                             }
                                                                         }
@@ -1150,7 +1266,86 @@
 ]</composition>
         <da_relay_models/>
         <data>[
-    
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "Holiday_Event",
+        "elementLabel": "Holiday_Event",
+        "eventMappings": [
+            {
+                "eventMappingId": "cmcoaxpkhaaccdsccvhhwccdddjjpmxq",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "9f9ae89d832ee610da21b955eeaad3fa"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "cmcoaxpkhaaccdtccvhhwevffifnhhbb",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "encodedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "u_meisho,u_hiduke"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_t_shukujitsu_kanri"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
 ]</data>
         <description/>
         <dispatched_events>1b5e29e994811110fa9bd865bcd1535c</dispatched_events>
@@ -1368,6 +1563,9 @@
   "message" : "Kongkong",
   "comment" : ""
 }, {
+  "message" : "Month",
+  "comment" : ""
+}, {
   "message" : "Pacific/Chatham",
   "comment" : ""
 }, {
@@ -1435,7 +1633,7 @@
             "value": [
                 {
                     "$$mid": 0,
-                    "bgColor": "#9c88ff",
+                    "bgColor": "#00a8ff",
                     "block": false,
                     "endDate": "2029-01-01",
                     "occurrenceDays": [
@@ -1443,7 +1641,8 @@
                         6
                     ],
                     "startDate": "2019-01-01",
-                    "textColor": "blue",
+                    "textColor": "#fbc531",
+                    "title": "Ngày nghỉ cuối tuần",
                     "zones": [
                         {
                             "endTime": "23:59:59",
@@ -1453,15 +1652,15 @@
                 },
                 {
                     "$$mid": 1,
-                    "bgColor": "#00a8ff",
-                    "block": true,
+                    "bgColor": "#9c88ff",
+                    "block": false,
                     "endDate": "2025-07-03",
                     "occurrenceDays": [
-                        2
+                        4
                     ],
                     "startDate": "2025-07-03",
-                    "textColor": "#4cd137",
-                    "title": "Ngày của bố  mày",
+                    "textColor": "#273c75",
+                    "title": "Ngày nghỉ lễ",
                     "zones": [
                         {
                             "endTime": "23:59:59",
@@ -1501,17 +1700,6 @@
                     "start": "2025-07-04 04:00:01",
                     "startMS": 1751572801000,
                     "title": "Demo day"
-                },
-                {
-                    "bgColor": "#9c88ff",
-                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
-                    "end": "2025-07-03 23:59:59",
-                    "endMS": 1751533199000,
-                    "id": "agsd01125",
-                    "order": 12,
-                    "start": "2025-07-03 00:00:00",
-                    "startMS": 1751472000000,
-                    "title": "Ngày của bố mày"
                 }
             ]
         },
@@ -1523,7 +1711,7 @@
         "id": "fpUg2P1rA0ey9gIDSMBJxKAT",
         "initialValue": {
             "type": "JSON_LITERAL",
-            "value": "{{$now}}"
+            "value": ""
         },
         "name": "startDate",
         "shape": "",
@@ -1787,14 +1975,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-03 03:34:42</sys_created_on>
         <sys_id>b28e1f3c8326a610da21b955eeaad334</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>カレンダー</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_b28e1f3c8326a610da21b955eeaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-03 10:46:55</sys_updated_on>
+        <sys_updated_on>2025-07-04 07:36:57</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b28e1f3c8326a610da21b955eeaad334"/>
 </record_update>
