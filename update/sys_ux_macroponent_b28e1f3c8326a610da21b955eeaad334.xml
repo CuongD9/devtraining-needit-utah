@@ -200,31 +200,6 @@
                                                                                             "value": {
                                                                                                 "code": null,
                                                                                                 "comment": "",
-                                                                                                "message": "Work Week"
-                                                                                            }
-                                                                                        },
-                                                                                        "type": {
-                                                                                            "type": "JSON_LITERAL",
-                                                                                            "value": "Calendar"
-                                                                                        },
-                                                                                        "view": {
-                                                                                            "type": "JSON_LITERAL",
-                                                                                            "value": "work_week"
-                                                                                        },
-                                                                                        "viewProvider": {
-                                                                                            "type": "JSON_LITERAL",
-                                                                                            "value": "COLUMN"
-                                                                                        }
-                                                                                    },
-                                                                                    "type": "MAP_CONTAINER"
-                                                                                },
-                                                                                {
-                                                                                    "container": {
-                                                                                        "label": {
-                                                                                            "type": "TRANSLATION_LITERAL",
-                                                                                            "value": {
-                                                                                                "code": null,
-                                                                                                "comment": "",
                                                                                                 "message": "Week"
                                                                                             }
                                                                                         },
@@ -322,9 +297,7 @@
                                                                         },
                                                                         "datePickerTemplates": {
                                                                             "type": "JSON_LITERAL",
-                                                                            "value": {
-                                                                                "work_week": "(startMoment &amp;&amp; endMoment) ? `${startMoment.format('M/D')}-${endMoment.format('M/D')}` : ''"
-                                                                            }
+                                                                            "value": {}
                                                                         },
                                                                         "enableNewButton": {
                                                                             "type": "JSON_LITERAL",
@@ -876,7 +849,13 @@
                                                                     "items": [
                                                                         {
                                                                             "element_id": "calendar_1",
-                                                                            "styles": {}
+                                                                            "styles": {
+                                                                                "background": "rgb(var(--now-color--neutral-1))",
+                                                                                "border-color": "RGB(var(--now-color--neutral-5))",
+                                                                                "border-style": "solid",
+                                                                                "border-width": "var(--now-static-space--xxs)",
+                                                                                "box-shadow": "var(--now-static-drop-shadow--md)"
+                                                                            }
                                                                         }
                                                                     ],
                                                                     "root": null,
@@ -1975,14 +1954,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-07-03 03:34:42</sys_created_on>
         <sys_id>b28e1f3c8326a610da21b955eeaad334</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>カレンダー</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_b28e1f3c8326a610da21b955eeaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-07-04 07:36:57</sys_updated_on>
+        <sys_updated_on>2025-07-07 08:01:26</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b28e1f3c8326a610da21b955eeaad334"/>
 </record_update>

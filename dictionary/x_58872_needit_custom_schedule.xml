@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ce42e1d2832a2210f603c7a6feaad317" label="Custom Schedule" max_length="40" name="x_58872_needit_custom_schedule" type="collection">
+        <element label="End" max_length="40" name="end" type="glide_date_time"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Start" max_length="40" name="start" type="glide_date_time"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
